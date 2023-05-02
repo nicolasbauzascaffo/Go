@@ -13,7 +13,7 @@ const Login = () => {
   }, []);
 
   return (
-    <div className="login" >
+    <div className="login" style={{backgroundImage: `url(${background})`}} >
       <Formik
         initialValues={{ email: "", password: "" }}
         validate={(values) => {
@@ -86,7 +86,7 @@ const Login = () => {
               Log in
             </button>
             <p style={{color:'black'}} className="subscribe-link">
-              First time on MovieAPP? -{" "}
+              First time on Go? -{" "}
               <Link
                 style={{ textDecoration: "none", color: "green" }}
                 to="/register"

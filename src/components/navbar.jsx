@@ -55,11 +55,9 @@ const Navbar = () => {
       position="fixed"
       sx={{
         transition: "background-color 0.5s",
-        backgroundColor:
-          isScrolled &&
-          "transparent",
+        backgroundColor: isScrolled && "transparent",
         background: !isScrolled && "transparent",
-        boxShadow:'none'
+        boxShadow: "none",
       }}
     >
       <Container maxWidth="xl">
@@ -80,9 +78,11 @@ const Navbar = () => {
               textDecorationLine: "none",
             }}
           >
-           <section className="icon-section" >
+            <section className="icon-section">
               <img src={logo} />
-              <h4>Go</h4>
+              <h4 lang="en" translate="no">
+                Go
+              </h4>
             </section>
           </Typography>
 
@@ -115,7 +115,7 @@ const Navbar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              <Link style={{textDecoration:'none'}} to="movies">
+              <Link style={{ textDecoration: "none" }} to="movies">
                 <Button
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, display: "block" }}
@@ -123,7 +123,7 @@ const Navbar = () => {
                   Movies
                 </Button>
               </Link>
-              <Link style={{textDecoration:'none'}} to="about">
+              <Link style={{ textDecoration: "none" }} to="about">
                 <Button
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, display: "block" }}
@@ -131,7 +131,7 @@ const Navbar = () => {
                   About
                 </Button>
               </Link>
-              <Link style={{textDecoration:'none'}} to="login">
+              <Link style={{ textDecoration: "none" }} to="login">
                 <Button
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, display: "block" }}
@@ -139,7 +139,7 @@ const Navbar = () => {
                   Login
                 </Button>
               </Link>
-              <Link style={{textDecoration:'none'}} to="register">
+              <Link style={{ textDecoration: "none" }} to="register">
                 <Button
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, display: "block" }}
@@ -166,9 +166,11 @@ const Navbar = () => {
               textDecorationLine: "none",
             }}
           >
-           <section className="icon-section" >
+            <section className="icon-section">
               <img src={logo} />
-              <h4>Go</h4>
+              <h4 lang="en" translate="no">
+                Go
+              </h4>
             </section>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>

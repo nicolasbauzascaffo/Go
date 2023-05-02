@@ -19,19 +19,20 @@ const Mainbox = () => {
         <h2>You don't have premium yet?</h2>
         <p>Register right now and enjoy the benefits</p>
         <Link style={{textDecoration:'none'}} to="register">
-          <Button
-            variant="contained"
-            color="success"
-            sx={{
-              marginTop: "10px",
-              fontWeight: "bold",
-              textDecoration: "none",
-              fontSize:'12px'
-            }}
-            startIcon={<HowToRegIcon />}
-          >
-            Register
-          </Button>
+        <Button
+              color="success"
+              sx={{
+                textDecoration: "none",
+                marginTop: "10px",
+                fontWeight: "bold",
+                height: "26px",
+                fontSize: "12px",
+                background: "transparent",
+              }}
+              startIcon={<HowToRegIcon />}
+            >
+              Register
+            </Button>
         </Link>
       </section>
       <hr />

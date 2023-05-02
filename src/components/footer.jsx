@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer">
       <section className="icon-section">
         <img src={logo} />
-        <h2>Go</h2>
+        <h2  lang="en" translate="no" >Go</h2>
       </section>
       <section style={{ display: "flex", gap: "20px" }}>
         <Link style={{textDecoration:'none'}} to="/login" className="link">

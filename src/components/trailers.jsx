@@ -167,6 +167,7 @@ export default function Trailers() {
       >
         {images.map((image) => (
           <ImageButton
+            lang="en" translate="no"
             focusRipple
             key={image.title}
             style={{
@@ -177,6 +178,8 @@ export default function Trailers() {
             <ImageBackdrop className="MuiImageBackdrop-root" />
             <Image onClick={() => handleOpen(image.title, image.video)}>
               <Typography
+              lang="en"
+              translate="no"
                 component="span"
                 variant="subtitle1"
                 color="inherit"

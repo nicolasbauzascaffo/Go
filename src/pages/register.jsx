@@ -12,7 +12,7 @@ const Register = () => {
   }, []);
 
   return (
-    <div className="register">
+    <div className="register" style={{backgroundImage: `url(${background})`}}>
       <Formik
         initialValues={{
           username: "",
@@ -137,7 +137,7 @@ const Register = () => {
             </button>
 
             <p style={{color:'black'}} className="subscribe-link">
-              You have a count? -{" "}
+              You are registered? -{" "}
               <Link
                 style={{ textDecoration: "none", color: "green" }}
                 to="/login"

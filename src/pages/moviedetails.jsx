@@ -48,14 +48,19 @@ const Moviedetails = () => {
           />
           <section className="info">
             <Link style={{textDecoration:'none'}} to="/movies">
-              <Button
-               sx={{textDecoration: "none",}}
-                color="error"
-                variant="outlined"
-                startIcon={<ArrowBackIcon />}
-              >
-                back
-              </Button>
+            <Button
+              sx={{
+                textDecoration: "none",
+                marginTop: "10px",
+                fontWeight: "bold",
+                height: "26px",
+                fontSize: "12px",
+                background: "transparent",
+              }}
+              startIcon={<ArrowBackIcon />}
+            >
+              back
+            </Button>
             </Link>
             <h2>{movie.title}</h2>
             <p>{movie.overview}</p>

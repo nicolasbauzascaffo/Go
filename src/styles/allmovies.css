@@ -21,8 +21,8 @@
 }
 
 .movie img {
-  width: 140px;
-  height: 200px;
+  width: 120px;
+  height: 180px;
 }
 
 @media (max-width: 850px) {
