@@ -1,0 +1,51 @@
+.home {
+    display: grid;
+    width: 100%;
+    background: rgb(32, 32, 32);
+    background: linear-gradient(
+      214deg,
+      rgb(13, 14, 13) 0%,
+      rgb(21, 22, 21) 100%
+    );
+    grid-template:
+      "header" auto
+      "mainbox" auto
+      "footer" auto;
+    scroll-behavior: smooth;
+    padding-top: 30px;
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .mainbox {
+    grid-area: mainbox;
+  }
+  
+  .footer {
+    grid-area: footer;
+  }
+
+  @media(max-width:500px){
+    .home {
+      padding-top: 60px;
+    }
+  }
+
+  @media(max-width:300px){
+    .home {
+      padding-top: 80px;
+    }
+  }
+  
+  @media (min-width: 250px) {
+    .home {
+      grid-template:
+        "header" auto
+        "mainbox" auto
+        "footer" auto;
+      scroll-behavior: smooth;
+    }
+  }
+  

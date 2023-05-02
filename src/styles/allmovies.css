@@ -1,0 +1,58 @@
+.all-movies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 8px;
+}
+
+.posters {
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 5px;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie img {
+  width: 140px;
+  height: 200px;
+}
+
+@media (max-width: 850px) {
+  .movie img {
+    width: 90px;
+    height: 140px;
+  }
+  .all-movies {
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+  }
+  .posters {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media(max-width:300px){
+  .movie img {
+    width: 60px;
+    height: 90px;
+  }
+  .all-movies {
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+  }
+  .posters {
+    justify-content: center;
+    align-items: center;
+  }
+}

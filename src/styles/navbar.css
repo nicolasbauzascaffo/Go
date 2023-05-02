@@ -1,0 +1,36 @@
+.navbar {
+  padding: 0 10%;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar h4 {
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(122, 236, 160);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+  font-size: 20px;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon-section img {
+  width: 30px;
+}
+
+
+.navbar.scrolled {
+  background: rgb(9, 40, 9);
+  background: linear-gradient(
+    214deg,
+    rgba(9, 40, 9, 1) 0%,
+    rgba(58, 161, 73, 1) 100%
+  );
+}

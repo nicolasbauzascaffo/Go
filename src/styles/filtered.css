@@ -1,0 +1,66 @@
+.filtered {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.filtered h1 {
+  font-family: "Permanent Marker", cursive;
+  color: rgb(247, 38, 38);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+  font-size: 25px;
+}
+
+.filtered-movie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 5px;
+}
+.movie {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie img {
+  width: 140px;
+  height: 200px;
+}
+
+@media (max-width: 850px) {
+  .movie img {
+    width: 90px;
+    height: 140px;
+  }
+  .filtered {
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+  }
+  .posters {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .movie img {
+    width: 60px;
+    height: 90px;
+  }
+  .all-movies {
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+  }
+  .posters {
+    justify-content: center;
+    align-items: center;
+  }
+}

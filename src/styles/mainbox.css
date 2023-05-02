@@ -1,0 +1,36 @@
+.mainbox {
+  padding: 0 10%;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.register-link {
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-link h2 {
+  color: rgb(247, 38, 38);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.685);
+  font-family: "Permanent Marker", cursive;
+}
+
+.register-link img {
+  width: 250px;
+}
+
+@media(max-width:850px){
+  .mainbox {
+    padding: 10px;
+  }
+}
+
+@media(max-width:300px){
+  .register-link img {
+    width: 150px;
+  }
+}

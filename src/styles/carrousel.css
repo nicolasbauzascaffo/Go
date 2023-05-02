@@ -1,0 +1,12 @@
+.carrousel img {
+  width: 100%;
+}
+
+.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded {
+  box-shadow: none;
+  border: none;
+}
+
+.MuiGrid-container {
+  margin: 0;
+}
