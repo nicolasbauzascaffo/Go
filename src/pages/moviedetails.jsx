@@ -49,6 +49,7 @@ const Moviedetails = () => {
           <section className="info">
             <Link to="/movies">
               <Button
+               sx={{textDecoration: "none",}}
                 color="primary"
                 variant="outlined"
                 startIcon={<ArrowBackIcon />}

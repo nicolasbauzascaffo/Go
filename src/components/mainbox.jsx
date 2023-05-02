@@ -23,7 +23,12 @@ const Mainbox = () => {
           <Button
             variant="contained"
             color="success"
-            sx={{ marginTop: "10px", fontWeight: "bold", width: "170px" }}
+            sx={{
+              marginTop: "10px",
+              fontWeight: "bold",
+              width: "170px",
+              textDecoration: "none",
+            }}
             startIcon={<HowToRegIcon />}
           >
             Register now

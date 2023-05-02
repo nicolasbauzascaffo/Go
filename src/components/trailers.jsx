@@ -185,7 +185,7 @@ export default function Trailers() {
                   pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
                 }}
               >
-                ▶ {image.title}
+                {image.title}
                 <ImageMarked className="MuiImageMarked-root" />
               </Typography>
             </Image>

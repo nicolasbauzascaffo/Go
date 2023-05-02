@@ -3,11 +3,11 @@ import "../styles/paper.css";
 import * as React from "react";
 import { Box, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import InfoIcon from '@mui/icons-material/Info';
+import InfoIcon from "@mui/icons-material/Info";
 
 const Item = ({ item }) => {
   return (
-    <Box position="relative" >
+    <Box position="relative">
       <img src={item.image} alt={item.title} />
       <Box
         sx={{
@@ -17,7 +17,7 @@ const Item = ({ item }) => {
           transform: "translate(-50%, -50%)",
           textAlign: "center",
           width: "100%",
-          gap:'10px'
+          gap: "10px",
         }}
       >
         <Typography
@@ -25,7 +25,7 @@ const Item = ({ item }) => {
             fontWeight: "bold",
             fontFamily: "Permanent Marker",
             color: "#16942a",
-            fontSize:'23px',
+            fontSize: "23px",
             textShadow: "3px 3px 3px red",
           }}
           variant="h5"
@@ -36,7 +36,13 @@ const Item = ({ item }) => {
           <Button
             variant="contained"
             color="success"
-            sx={{ marginTop: "10px", fontWeight: "bold", height:'30px', fontSize:'10px' }}
+            sx={{
+              textDecoration: "none",
+              marginTop: "10px",
+              fontWeight: "bold",
+              height: "30px",
+              fontSize: "10px",
+            }}
             startIcon={<InfoIcon />}
           >
             View More
