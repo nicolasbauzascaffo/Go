@@ -7,10 +7,15 @@
   align-items: flex-start;
   padding-top: 100px;
   padding-bottom: 20px;
+  background: rgb(32, 32, 32);
+    background: linear-gradient(
+      214deg,
+      rgb(13, 14, 13) 0%,
+      rgb(87, 88, 87) 100%
+    );
 }
 
 .title-y {
-  color: rgb(38, 93, 175);
   font-weight: bold;
   font-family: 'Bruno Ace', cursive;
   font-size: 20px;

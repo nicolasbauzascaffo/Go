@@ -6,11 +6,6 @@ const Premiere = () => {
   return (
     <div className="premiere">
       <hr />
-      <section className="logo-page">
-        <img src={logo} />
-        <h4>Go</h4>
-      </section>
-      <hr />
       <p>Enjoy our Premium Movies section now for free</p>
     </div>
   );

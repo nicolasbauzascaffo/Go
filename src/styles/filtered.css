@@ -22,6 +22,7 @@
   width: 100%;
   height: auto;
   gap: 5px;
+  padding-top: 20px;
 }
 .movie {
   display: flex;

@@ -13,7 +13,7 @@ const Login = () => {
   }, []);
 
   return (
-    <div className="login" style={{ backgroundImage: `url(${background})` }}>
+    <div className="login" >
       <Formik
         initialValues={{ email: "", password: "" }}
         validate={(values) => {

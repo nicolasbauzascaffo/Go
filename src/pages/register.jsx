@@ -12,7 +12,7 @@ const Register = () => {
   }, []);
 
   return (
-    <div className="register" style={{ backgroundImage: `url(${background})` }}>
+    <div className="register">
       <Formik
         initialValues={{
           username: "",
