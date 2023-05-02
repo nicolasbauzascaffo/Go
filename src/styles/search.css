@@ -8,3 +8,8 @@
   background-color: rgba(0, 0, 0, 0.822);
   padding-bottom: 20px;
 }
+
+.search h1 {
+  color: rgb(247, 38, 38);
+  font-family: 'Bruno Ace', cursive;
+}

@@ -70,7 +70,7 @@ const Register = () => {
             className="form-register"
             onSubmit={handleSubmit}
           >
-            <h2 className="title" >Register</h2>
+            <h2 className="title-y" >Register</h2>
             <section className="section-i">
               <TextField
                 variant="outlined"

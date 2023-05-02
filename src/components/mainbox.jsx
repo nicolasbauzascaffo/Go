@@ -17,7 +17,6 @@ const Mainbox = () => {
       <hr />
       <section className="register-link">
         <h2>You don't have premium yet?</h2>
-        <img src={deadpool} />
         <p>Register right now and enjoy the benefits</p>
         <Link style={{textDecoration:'none'}} to="register">
           <Button

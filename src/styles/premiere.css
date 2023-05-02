@@ -14,21 +14,21 @@
 }
 
 .logo-page h4 {
-  font-family: 'Permanent Marker', cursive;
   color: rgb(122, 236, 160);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+  font-family: 'Bruno Ace', cursive;
   font-size: 40px;
 }
 
 .premiere {
   color: white;
   padding-bottom: 20px;
+  gap: 10px;
 }
 
 .premiere h2 {
   color: rgb(247, 38, 38);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.685);
-  font-family: 'Permanent Marker', cursive;
 }
 
 

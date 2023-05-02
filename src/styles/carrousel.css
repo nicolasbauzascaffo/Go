@@ -1,12 +1,16 @@
-.carrousel img {
-  width: 100%;
+.carrousel h4 {
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
 }
 
-.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded {
-  box-shadow: none;
-  border: none;
-}
 
-.MuiGrid-container {
-  margin: 0;
+
+@media(max-width:300px){
+  .carrousel h4 {
+    font-size: 18px;
+  }
+  .carrousel button {
+    font-size: 8px;
+  }
 }

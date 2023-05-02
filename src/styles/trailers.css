@@ -4,9 +4,11 @@
 }
 
 .trailers h2 {
-  color: rgb(247, 38, 38);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.685);
-  font-family: "Permanent Marker", cursive;
+  color: rgb(247, 38, 38);
+  font-weight: bold;
+  font-family: 'Bruno Ace', cursive;
+  font-size: 20px;
 }
 
 .video {

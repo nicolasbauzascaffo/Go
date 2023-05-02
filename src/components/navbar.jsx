@@ -57,8 +57,9 @@ const Navbar = () => {
         transition: "background-color 0.5s",
         backgroundColor:
           isScrolled &&
-          "linear-gradient(90deg, rgba(12,90,117,1) 0%, rgba(1,103,166,1) 100%)",
-        background: !isScrolled && "rgb(12,90,117)",
+          "transparent",
+        background: !isScrolled && "transparent",
+        boxShadow:'none'
       }}
     >
       <Container maxWidth="xl">

@@ -26,10 +26,8 @@ const Movies = () => {
     <div className="movies">
       <section
         className="search-section"
-        style={{ backgroundImage: `url(${moviebg})` }}
       >
         <h1>Enjoy now</h1>
-        <img src={avatar} />
         <form onSubmit={handleSubmit}>
           <TextField
             value={keyword}

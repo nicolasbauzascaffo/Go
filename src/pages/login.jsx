@@ -52,7 +52,7 @@ const Login = () => {
           isSubmitting,
         }) => (
           <Form autoComplete="off" className="form" onSubmit={handleSubmit}>
-            <h2 className="title" >Log in</h2>
+            <h2 className="title-x " >Log in</h2>
             <section className="i-section">
               <TextField
                 variant="outlined"
