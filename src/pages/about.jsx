@@ -34,9 +34,9 @@ const About = () => {
                 sx={{textDecoration: "none",}}
                 variant="contained"
                 color="primary"
-                startIcon={<GitHubIcon />}
+                startIcon={<LinkedInIcon />}
               >
-                GitHub
+                LinkedIn
               </Button>
             </Link>
             <Link style={{textDecoration:'none'}} to="https://github.com/nicolasbauzascaffo?tab=repositories">
@@ -44,9 +44,9 @@ const About = () => {
                sx={{textDecoration: "none",}}
                 variant="contained"
                 color="primary"
-                startIcon={<LinkedInIcon />}
+                startIcon={<GitHubIcon />}
               >
-                LinkedIn
+                GitHub
               </Button>
             </Link>
           </section>
