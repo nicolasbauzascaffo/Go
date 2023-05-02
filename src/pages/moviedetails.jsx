@@ -58,15 +58,6 @@ const Moviedetails = () => {
               </Button>
             </Link>
             <h2>{movie.title}</h2>
-            {movie.production_companies[0]?.logo_path ? (
-              <img
-                style={{ width: "70px", height: "30px", backgroundColor:'white', padding:'5px', borderRadius:'5px' }}
-                className="logo-company"
-                src={`https://image.tmdb.org/t/p/w500/${movie.production_companies[0].logo_path}`}
-              />
-            ) : (
-              <p></p>
-            )}
             <p>{movie.overview}</p>
             <p>
               <AccessTimeIcon /> {movie.runtime} minutes
