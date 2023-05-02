@@ -8,64 +8,65 @@ import Modal from "@mui/material/Modal";
 
 const images = [
   {
-    img: "/public/avatar.webp",
+    img: "/avatar.webp",
     title: "Avatar II",
     width: "33.3%",
     video: "/public/videos/Avatar_ The Way of Water _ Official Trailer.mp4",
   },
   {
-    img: "/public/batman.jpg",
+    img: "/batman.jpg",
     title: "The Batman",
     width: "33.3%",
     video: "/public/videos/THE BATMAN – Main Trailer.mp4",
   },
   {
-    img: "/public/john-wick.webp",
+    img: "/john-wick.webp",
     title: "Jhon Wick IV",
     width: "33.3%",
     video:
       "/public/videos/John Wick_ Chapter 4 (2023) Final Trailer – Keanu Reeves, Donnie Yen, Bill Skarsgård.mp4",
   },
   {
-    img: "/public/Top-Gun-Maverick-Monitor-Culture.webp",
+    img: "/Top-Gun-Maverick-Monitor-Culture.webp",
     title: "Maverick",
     width: "33.3%",
     video:
       "/public/videos/Top Gun_ Maverick _ NUEVO Tráiler oficial (2022) SUBTITULADO - Tom Cruise.mp4",
   },
   {
-    img: "/public/evildead.jpg",
+    img: "/evildead.jpg",
     title: "Evil Dead Rise",
     width: "33.3%",
     video:
       "/public/videos/Evil Dead Rise El Despertar - Trailer Español Latino Sub Sin Censura 2023.mp4",
   },
   {
-    img: "/public/230225-cocaine-bear-tease_gncd64.jpg",
+    img: "/230225-cocaine-bear-tease_gncd64.jpg",
     title: "Cocaine Bear",
     width: "33.3%",
     video: "/public/videos/COCAINE BEAR Official Trailer (2023).mp4",
   },
   {
-    img: "/public/scream_6_crop1675787972429.jpg_1624932088.jpg",
+    img: "/scream_6_crop1675787972429.jpg_1624932088.jpg",
     title: "Scream IV",
     width: "33.3%",
     video: "/public/videos/Scream VI _ Official Trailer (2023 Movie).mp4",
   },
   {
-    img: "/public/antman.jpeg",
+    img: "/antman.jpeg",
     title: "Quantumania",
     width: "33.3%",
     video:
       "/public/videos/Marvel Studios’ Ant-Man and The Wasp_ Quantumania _ Official Trailer.mp4",
   },
   {
-    img: "/public/mario.jpeg",
+    img: "/mario.jpeg",
     title: "Super Mario",
     width: "33.3%",
     video: "/public/videos/The Super Mario Bros. Movie _ Official Trailer.mp4",
   },
 ];
+
 
 const style = {
   position: "absolute",
