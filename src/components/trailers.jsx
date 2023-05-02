@@ -21,7 +21,7 @@ const images = [
   },
   {
     img: "/john-wick.webp",
-    title: "Jhon Wick IV",
+    title: "John Wick IV",
     width: "33.3%",
     video:
       "/videos/John Wick_ Chapter 4 (2023) Final Trailer – Keanu Reeves, Donnie Yen, Bill Skarsgård.mp4",

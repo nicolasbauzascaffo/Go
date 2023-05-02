@@ -7,8 +7,8 @@ import '../styles/notfound.css'
 const Notfound = () => {
   return (
     <div className="notfound" >
-      <Link to="/">
-        <Button variant="outlined" color="error" endIcon={<CottageIcon />} >
+      <Link style={{textDecoration:'none'}} to="/">
+        <Button sx={{textDecoration:'none'}} variant="outlined" color="error" endIcon={<CottageIcon />} >
           404 | Back Home
         </Button>
       </Link>

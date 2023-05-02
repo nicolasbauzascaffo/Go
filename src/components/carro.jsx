@@ -38,7 +38,7 @@ const Carrousel = () => {
         <img className="d-block w-100" src={jw} alt="Second slide" />
 
         <Carousel.Caption>
-          <h4>Jhon Wick IV</h4>
+          <h4>John Wick IV</h4>
           <Link style={{ textDecoration: "none" }} to='/603692' >
             <Button
               variant="contained"

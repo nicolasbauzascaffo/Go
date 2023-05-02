@@ -50,7 +50,7 @@ const Moviedetails = () => {
             <Link style={{textDecoration:'none'}} to="/movies">
               <Button
                sx={{textDecoration: "none",}}
-                color="primary"
+                color="error"
                 variant="outlined"
                 startIcon={<ArrowBackIcon />}
               >
