@@ -8,9 +8,10 @@
 }
 
 .filtered h1 {
+  color: rgb(35, 111, 182);
+  font-weight: bold;
   font-family: 'Bruno Ace', cursive;
-  color: rgb(247, 38, 38);
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .filtered-movie {

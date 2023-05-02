@@ -24,7 +24,7 @@ const Carrousel = () => {
                 textDecoration: "none",
                 marginTop: "10px",
                 fontWeight: "bold",
-                height: "22px",
+                height: "24px",
                 fontSize: "10px",
               }}
               startIcon={<InfoIcon />}
@@ -47,7 +47,7 @@ const Carrousel = () => {
                 textDecoration: "none",
                 marginTop: "10px",
                 fontWeight: "bold",
-                height: "22px",
+                height: "24px",
                 fontSize: "10px",
               }}
               startIcon={<InfoIcon />}
@@ -70,7 +70,7 @@ const Carrousel = () => {
                 textDecoration: "none",
                 marginTop: "10px",
                 fontWeight: "bold",
-                height: "22px",
+                height: "24px",
                 fontSize: "10px",
               }}
               startIcon={<InfoIcon />}

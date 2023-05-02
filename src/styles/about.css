@@ -17,7 +17,9 @@
 
 .title {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
-  color: rgb(230, 27, 27);
+  color: rgb(35, 111, 182);
+  font-weight: bold;
+  font-family: 'Bruno Ace', cursive;
 }
 
 .about {

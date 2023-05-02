@@ -15,7 +15,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   flex-direction: column;
   color: white;
@@ -30,8 +30,10 @@
 
 
 .search-section h1 {
-  color: rgb(211, 42, 42);
+  color: rgb(35, 111, 182);
+  font-weight: bold;
   font-family: 'Bruno Ace', cursive;
+  font-size: 35px;
 }
 
 .all-movies {
