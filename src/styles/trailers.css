@@ -30,4 +30,7 @@
   .box {
     width: 95%;
   }
+  .trailers-links{
+    gap: 10px;
+  }
 }

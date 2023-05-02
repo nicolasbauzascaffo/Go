@@ -25,12 +25,12 @@ const Mainbox = () => {
             sx={{
               marginTop: "10px",
               fontWeight: "bold",
-              width: "170px",
               textDecoration: "none",
+              fontSize:'12px'
             }}
             startIcon={<HowToRegIcon />}
           >
-            Register now
+            Register
           </Button>
         </Link>
       </section>

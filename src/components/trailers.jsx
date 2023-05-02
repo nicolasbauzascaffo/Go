@@ -160,6 +160,7 @@ export default function Trailers() {
   return (
     <div className="trailers">
       <h2>Latest Trailers</h2>
+      <p>Find the latest trends</p>
       <Box
         className="trailers-links"
         sx={{ display: "flex", flexWrap: "wrap", width: "100%" }}
