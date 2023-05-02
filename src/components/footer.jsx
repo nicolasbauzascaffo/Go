@@ -11,13 +11,13 @@ const Footer = () => {
         <h2>Go</h2>
       </section>
       <section style={{ display: "flex", gap: "20px" }}>
-        <Link to="/login" className="link">
+        <Link style={{textDecoration:'none'}} to="/login" className="link">
           Log in
         </Link>
-        <Link to="/register" className="link">
+        <Link style={{textDecoration:'none'}} to="/register" className="link">
           Register
         </Link>
-        <Link to="/about" className="link">
+        <Link style={{textDecoration:'none'}} to="/about" className="link">
           About
         </Link>
       </section>

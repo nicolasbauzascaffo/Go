@@ -32,7 +32,7 @@ const Item = ({ item }) => {
         >
           {item.title}
         </Typography>
-        <Link to={`/${item.id}`}>
+        <Link style={{textDecoration:'none'}} to={`/${item.id}`}>
           <Button
             variant="contained"
             color="success"

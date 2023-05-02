@@ -27,12 +27,6 @@
     grid-area: footer;
   }
 
-  @media(max-width:500px){
-    .home {
-      padding-top: 60px;
-    }
-  }
-
   @media(max-width:300px){
     .home {
       padding-top: 80px;

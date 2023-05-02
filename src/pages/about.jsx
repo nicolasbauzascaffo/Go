@@ -29,7 +29,7 @@ const About = () => {
             Formik library. At the same time, trailers can be played in the Home section.
           </p>
           <section style={{ gap: "10px", display: "flex" }}>
-            <Link to="https://www.linkedin.com/in/nicol%C3%A1s-bauz%C3%A1-48a8a0244/">
+            <Link style={{textDecoration:'none'}} to="https://www.linkedin.com/in/nicol%C3%A1s-bauz%C3%A1-48a8a0244/">
               <Button
                 sx={{textDecoration: "none",}}
                 variant="contained"
@@ -39,7 +39,7 @@ const About = () => {
                 GitHub
               </Button>
             </Link>
-            <Link to="https://github.com/nicolasbauzascaffo?tab=repositories">
+            <Link style={{textDecoration:'none'}} to="https://github.com/nicolasbauzascaffo?tab=repositories">
               <Button
                sx={{textDecoration: "none",}}
                 variant="contained"

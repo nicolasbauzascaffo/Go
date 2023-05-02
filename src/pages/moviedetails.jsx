@@ -47,7 +47,7 @@ const Moviedetails = () => {
             }}
           />
           <section className="info">
-            <Link to="/movies">
+            <Link style={{textDecoration:'none'}} to="/movies">
               <Button
                sx={{textDecoration: "none",}}
                 color="primary"
@@ -105,8 +105,9 @@ const Moviedetails = () => {
             minHeight: "100vh",
           }}
         >
-          <Link to="/movies">
+          <Link style={{textDecoration:'none'}} to="/movies">
             <Button
+              sx={{textDecoration:'none'}}
               variant="outlined"
               color="error"
               endIcon={<LocalMoviesIcon />}

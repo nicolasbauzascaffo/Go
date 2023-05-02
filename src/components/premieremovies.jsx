@@ -24,7 +24,7 @@ const Premieremovies = () => {
     <div className="premiere-movies">
       {premiere.map((movie, index) => (
         <section className="movie-info" key={index}>
-          <Link to={`/${movie.id}`}>
+          <Link style={{textDecoration:'none'}} to={`/${movie.id}`}>
             {movie.poster_path ? (
               <img
                 src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
