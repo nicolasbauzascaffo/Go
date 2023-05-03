@@ -26,12 +26,16 @@ const About = () => {
             out consuming the information from the TMDB Movies API with axios.
             Contains paguination with React-Router-Dom; movie filtering can be
             done and it also contains registration and login forms made with the
-            Formik library. At the same time, trailers can be played in the Home section.
+            Formik library. At the same time, trailers can be played in the Home
+            section. I also used libraries like Material UI and Bootstrap.
           </p>
           <section style={{ gap: "10px", display: "flex" }}>
-            <Link style={{textDecoration:'none'}} to="https://www.linkedin.com/in/nicol%C3%A1s-bauz%C3%A1-48a8a0244/">
+            <Link
+              style={{ textDecoration: "none" }}
+              to="https://www.linkedin.com/in/nicol%C3%A1s-bauz%C3%A1-48a8a0244/"
+            >
               <Button
-                sx={{textDecoration: "none",}}
+                sx={{ textDecoration: "none" }}
                 variant="contained"
                 color="primary"
                 startIcon={<LinkedInIcon />}
@@ -39,9 +43,12 @@ const About = () => {
                 LinkedIn
               </Button>
             </Link>
-            <Link style={{textDecoration:'none'}} to="https://github.com/nicolasbauzascaffo?tab=repositories">
+            <Link
+              style={{ textDecoration: "none" }}
+              to="https://github.com/nicolasbauzascaffo?tab=repositories"
+            >
               <Button
-               sx={{textDecoration: "none",}}
+                sx={{ textDecoration: "none" }}
                 variant="contained"
                 color="primary"
                 startIcon={<GitHubIcon />}
