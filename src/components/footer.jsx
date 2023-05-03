@@ -21,7 +21,7 @@ const Footer = () => {
           About
         </Link>
       </section>
-      <p>© Go Copyright 2023</p>
+      <p  lang="en" translate="no" >© Go Copyright 2023</p>
     </div>
   );
 };

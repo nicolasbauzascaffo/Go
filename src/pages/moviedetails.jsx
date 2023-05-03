@@ -47,22 +47,24 @@ const Moviedetails = () => {
             }}
           />
           <section className="info">
-            <Link style={{textDecoration:'none'}} to="/movies">
-            <Button
-              sx={{
-                textDecoration: "none",
-                marginTop: "10px",
-                fontWeight: "bold",
-                height: "26px",
-                fontSize: "12px",
-                background: "transparent",
-              }}
-              startIcon={<ArrowBackIcon />}
-            >
-              back
-            </Button>
+            <Link style={{ textDecoration: "none" }} to="/movies">
+              <Button
+                sx={{
+                  textDecoration: "none",
+                  marginTop: "10px",
+                  fontWeight: "bold",
+                  height: "26px",
+                  fontSize: "12px",
+                  background: "transparent",
+                }}
+                startIcon={<ArrowBackIcon />}
+              >
+                back
+              </Button>
             </Link>
-            <h2 lang="en" translate="no" >{movie.title}</h2>
+            <h2 lang="en" translate="no">
+              {movie.title}
+            </h2>
             <p>{movie.overview}</p>
             <p>
               <AccessTimeIcon /> {movie.runtime} minutes
@@ -79,6 +81,8 @@ const Moviedetails = () => {
             </p>
             <Rating name="read-only" value={movie.vote_average / 2} readOnly />
             <Button
+              lang="en"
+              translate="no"
               className="btn"
               variant="contained"
               color="success"
@@ -101,9 +105,9 @@ const Moviedetails = () => {
             minHeight: "100vh",
           }}
         >
-          <Link style={{textDecoration:'none'}} to="/movies">
+          <Link style={{ textDecoration: "none" }} to="/movies">
             <Button
-              sx={{textDecoration:'none'}}
+              sx={{ textDecoration: "none" }}
               variant="outlined"
               color="error"
               endIcon={<LocalMoviesIcon />}

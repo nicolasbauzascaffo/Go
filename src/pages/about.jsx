@@ -27,7 +27,7 @@ const About = () => {
             Contains paguination with React-Router-Dom; movie filtering can be
             done and it also contains registration and login forms made with the
             Formik library. At the same time, trailers can be played in the Home
-            section. I also used libraries like Material UI and Bootstrap.
+            section. I also used Frameworks like Material UI and Bootstrap.
           </p>
           <section style={{ gap: "10px", display: "flex" }}>
             <Link
@@ -59,7 +59,7 @@ const About = () => {
           </section>
           <section>
             <img className="logo" alt="" />
-            <p>© Go Copyright 2023</p>
+            <p  lang="en" translate="no" >© Go Copyright 2023</p>
           </section>
         </section>
       </section>
