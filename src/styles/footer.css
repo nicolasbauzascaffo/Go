@@ -1,9 +1,9 @@
 .footer {
-  background: rgb(9, 77, 121);
+  background: rgb(9, 40, 9);
   background: linear-gradient(
-    90deg,
-    rgba(9, 77, 121, 1) 0%,
-    rgba(10, 130, 154, 1) 77%
+    214deg,
+    rgba(9, 40, 9, 1) 0%,
+    rgba(58, 161, 73, 1) 100%
   );
   color: white;
   display: flex;
@@ -19,7 +19,7 @@
 
 .icon-section h2 {
   color: rgb(122, 236, 160);
-  font-family: 'Bruno Ace', cursive;
+  font-family: "Bruno Ace", cursive;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
 }
 
