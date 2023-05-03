@@ -62,7 +62,7 @@ const Moviedetails = () => {
               back
             </Button>
             </Link>
-            <h2>{movie.title}</h2>
+            <h2 lang="en" translate="no" >{movie.title}</h2>
             <p>{movie.overview}</p>
             <p>
               <AccessTimeIcon /> {movie.runtime} minutes
