@@ -1,11 +1,14 @@
 .all-movies {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 0 10%;
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 8px;
+  height: auto;
+  min-height: 100vh;
+  background-color: white;
 }
 
 .posters {
@@ -31,8 +34,8 @@
     height: 140px;
   }
   .all-movies {
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 6px;
   }
   .posters {
@@ -41,14 +44,14 @@
   }
 }
 
-@media(max-width:300px){
+@media(max-width:200px){
   .movie img {
     width: 60px;
     height: 90px;
   }
   .all-movies {
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 6px;
   }
   .posters {

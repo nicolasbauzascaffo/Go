@@ -1,6 +1,11 @@
 .details {
   padding: 0 10%;
-  background-color: rgba(0, 0, 0, 0.822);
+  background: rgb(32, 32, 32);
+  background: linear-gradient(
+    214deg,
+    rgb(13, 14, 13) 0%,
+    rgb(21, 22, 21) 100%
+  );
   height: auto;
   min-height: 100vh;
   display: flex;

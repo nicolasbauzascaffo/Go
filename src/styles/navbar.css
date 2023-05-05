@@ -23,7 +23,7 @@
 }
 
 .icon-section img {
-  width: 30px;
+  width: 20px;
 }
 
 .navbar.scrolled {
@@ -34,3 +34,5 @@
     rgba(58, 161, 73, 1) 100%
   );
 }
+
+

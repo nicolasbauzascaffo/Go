@@ -13,21 +13,16 @@
   width: 50px;
 }
 
-.logo-page h4 {
-  color: rgb(122, 236, 160);
-  font-family: 'Bruno Ace', cursive;
-  font-size: 40px;
-}
+
 
 .premiere {
   color: white;
   padding-bottom: 20px;
   gap: 10px;
+  font-size: 14px;
 }
 
-.premiere h2 {
-  color: rgb(35, 111, 182);
-}
+
 
 
 @media(max-width:300px){

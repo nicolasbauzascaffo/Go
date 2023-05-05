@@ -1,7 +1,6 @@
 .movies {
   display: grid;
   padding-top: 80px;
-  height: auto;
   min-height: 100vh;
   grid-template:
     "search-section" auto
@@ -65,7 +64,6 @@
     width: 100%;
     height: auto;
     min-height: 100vh;
-    background-color: rgb(35, 37, 37);
     grid-template:
       "search-section" auto
       "all-movies" auto;

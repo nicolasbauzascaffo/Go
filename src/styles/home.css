@@ -1,12 +1,6 @@
 .home {
     display: grid;
     width: 100%;
-    background: rgb(32, 32, 32);
-    background: linear-gradient(
-      214deg,
-      rgb(13, 14, 13) 0%,
-      rgb(21, 22, 21) 100%
-    );
     grid-template:
       "header" auto
       "mainbox" auto
